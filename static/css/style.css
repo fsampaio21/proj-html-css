@@ -97,8 +97,17 @@ section .container img {
     flex-direction: column;
     justify-content: center;
     gap: 16px;
+
+    min-height: 280px;
 }
 
+section#newslatter {
+    height: 100%;    
+}
+
+section#newslatter .container .content {
+    justify-content: start;
+}
 /* Titles */
 
 h1 {
@@ -163,4 +172,15 @@ form button {
     border-radius: 4px;
     
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    padding: 16px;
+    
+    background-color: #3b65cb;
+    color: #fff;
 }
