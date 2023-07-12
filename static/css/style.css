@@ -17,9 +17,13 @@ html, body {
 
 header {
     position: fixed;
+    
     width: 100%;
-    background-color: #3b65cb;
     padding: 16px;
+
+    background-color: #3b65cb;
+    
+    z-index: 1;
 }
 
 header .container {
